@@ -63,8 +63,6 @@
         if(answer !== 'exit'){
             questions[random].ValidateAnswer(parseInt(answer) , keepScore);
             new_question();    
-        } else{
-            console.log('game finish');
         }
     }
 
